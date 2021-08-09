@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Car from './components/AppTest'
 import App from './App';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Car />
   </React.StrictMode>,
   document.getElementById('root')
 );
